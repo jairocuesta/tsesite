@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- title -->
+    <title>Eventu - Event And Conference HTML5 Template</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="home-3">
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+
+    <!-- header area -->
+    <header class="header">
+        <div class="main-navigation">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container position-relative">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                    <div class="mobile-menu-right">
+                        <div class="search-btn">
+                            <button type="button" class="nav-right-link search-box-outer"><i
+                                    class="far fa-search"></i></button>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-mobile-icon"><i class="far fa-bars"></i></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="main_nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#countdown">Contador</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#speakers">Oradores</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#schedule">Fecha</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#gallery">Galeria</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#join-event">Unirse</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="#location">Ubicacion</a></li>
+                        </ul>
+                        <div class="nav-right">
+                            <!-- <div class="search-btn">
+                                <button type="button" class="nav-right-link search-box-outer"><i
+                                        class="far fa-search"></i></button>
+                            </div> -->
+                            <div class="nav-right-btn">
+                                <a href="#join-event" class="theme-btn">Inscribite<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header area end -->
+
+
+    <!-- popup search -->
+    <div class="search-popup">
+        <button class="close-search"><span class="far fa-times"></span></button>
+        <form action="#">
+            <div class="form-group">
+                <input type="search" name="search-field" placeholder="Search Here..." required>
+                <button type="submit"><i class="far fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+    <!-- popup search end -->
+
+
+    <main class="main">
+
+        <!-- hero slider -->
+        <div class="hero-section" id="home">
+            <div class="hero-scroll-box">
+                <div class="hero-scroll">
+                    <div class="scroller"></div>
+                </div>
+            </div>
+            <div class="hero-slider owl-carousel ">
+                <div class="hero-single">
+                    <video class="hero-video" src="assets/img/banner.mp4" autoplay loop></video>
+                    <!-- <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7 mx-auto">
+                                <div class="hero-content text-center">
+                                    <div class="hero-date" data-animation="fadeInDown" data-delay=".25s">
+                                        <h1>25</h1>
+                                        <div class="date-content">
+                                            <span>May 2024</span>
+                                            <p>25/B Milford Road, New York, USA</p>
+                                        </div>
+                                    </div>
+                                    <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                        Digital World <span>Conference</span> Meetup
+                                    </h1>
+                                    <p data-animation="fadeInLeft" data-delay=".75s">
+                                        There are many variations of passages available but the majority have
+                                        suffered alteration in some form by injected humour.
+                                    </p>
+                                    <div class="hero-btn justify-content-center" data-animation="fadeInUp"
+                                        data-delay="1s">
+                                        <a href="#" class="theme-btn">Inscribete ahora<i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- hero slider end -->
+
+
+        <!-- event-countdown -->
+        <div class="event-countdown ec-2 pt-50 pb-50" id="countdown">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="site-heading mb-3">
+                            <!-- <span class="site-title-tagline">Event Countdown</span> -->
+                            <h2 class="site-title" style="color: white; text-transform: uppercase;">
+                                El congreso <br/> inicia en:
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="event-countdown-wrap">
+                            <div data-countdown="2024/10/24 17:00" class="event-countdown"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- event-countdown end -->
+
+        <!-- speaker area -->
+        <div class="team-area py-100" id="speakers">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
+                            <!-- <span class="site-title-tagline">Speakers</span> -->
+                            <h2 class="site-title">nuestros <br/> <span>Conferencistas</span></h2>
+                            <div class="site-shadow-text">Conferencistas</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 wow fadeInUp justify-content-center" data-wow-delay=".25s">
+                    <div class="col-6 col-md-3 col-lg-2 openModalBtn" data-modal="luis">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/conferencistas/luis-leonardo-almagro-lemes.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4><a href="#">Luis Leonardo Almagro Lemes</a></h4>
+                                    <span>Abogado, Diplomático y Político</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 openModalBtn" data-modal="adriana">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/conferencistas/mu-kien-adriana-sang-ben.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4><a href="#">Mu-Kien Adriana <br/> Sang Ben</a></h4>
+                                    <span>Historiadora, ensayista, analista, politóloga y educadora</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 openModalBtn" data-modal="carolina">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/conferencistas/carolina-mejia.jpg" alt="" style="object-position: center;">
+                            </div>
+                            <div class="team-content">
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4><a href="#">Carolina Mejia</a></h4>
+                                    <span>Economista y Especialista en Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 openModalBtn" data-modal="roman">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/conferencistas/roman-andres-jaquez-lirazo.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4><a href="#">Román Andres Jáquez Lirazo</a></h4>
+                                    <span>Especialista en Estudios Políticos y Electorales</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 col-lg-2 openModalBtn" data-modal="marcos">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/speaker/04.jpg" alt="">
+                            </div>
+                            <div class="team-content">
+                                <div class="social">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="info">
+                                    <h4><a href="#">Marcos Francisco Masso Garrote</a></h4>
+                                    <span>Abogado y Doctor en Derecho</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- speaker area end -->
+        
+        <!-- The Modals -->
+        <div id="luis" class="modal">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <h4 id="modalText1">Luis Leonardo Almagro Lemes</h4>
+                    <span class="close">&times;</span>
+                </div>
+                <p>
+                    (Cerro Chato, Paysandú, 1 de junio de 1963) es un abogado, diplomático y político uruguayo. Desde el 26 de mayo de 2015,
+                    es el secretario general de la OEA. ​ También fue ministro de Relaciones Exteriores de Uruguay durante el gobierno de
+                    José Mujica y embajador de su país en China (2007-2010) durante el primer gobierno de Tabaré Vázquez.
+                </p>
+            </div>
+        </div>
+        <div id="adriana" class="modal">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <h4 id="modalText2">Mu-Kien Adriana Sang Ben</h4>
+                    <span class="close">&times;</span>
+                </div>
+                <p>
+                    (n. Santiago de los Caballeros, 1955) es una historiadora, ensayista, analista, politóloga y educadora dominicana. Es
+                    licenciada en Educación Summa Cum Laude en la Pontificia Universidad Católica Madre y Maestra, donde ha laborado por más
+                    de dos décadas. Hizo su postgrado en Educación de Adultos en el Centro de Cooperación Regional para la Educación de
+                    Adultos de América Latina y el Caribe (CREFAL) en 1978, en México. En 1985 alcanzó su doctorado en Historia y
+                    Civilización en la Escuela de Altos Estudios en Ciencias Sociales de París.
+                </p>
+            </div>
+        </div>
+        <div id="carolina" class="modal">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <h4 id="modalText3">Carolina Mejia</h4>
+                    <span class="close">&times;</span>
+                </div>
+                <p>
+                    Nació el 28 de marzo de 1969, en la ciudad de Santiago de los Caballeros República Dominicana. En 1987 inició sus
+                    estudios en la Pontificia Universidad Católica Madre y Maestra en donde se graduó como “Licenciada en Economía” en 1991.
+                    Para el 2002-2003 Curso el diplomado “Dirección de Marketing” de la escuela de negocios BARNA.
+                </p>
+            </div>
+        </div>
+        <div id="roman" class="modal">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <h4 id="modalText4">Román Andres Jáquez Lirazo</h4>
+                    <span class="close">&times;</span>
+                </div>
+                <p>
+                    Nació el 18 de octubre de 1972 en Bonao, provincia Monseñor Nouel, República Dominicana. Es egresado de Derecho en la
+                    Universidad Autónoma de Santo Domingo (UASD). Tiene seis títulos de cuarto nivel, a saber: maestría en Estudios
+                    Políticos y Electorales, con doble titulación en la Pontificia Universidad Católica Madre y Maestra (PUCMM) y la
+                    Universidad de Granada en España; maestría en Derecho y Relaciones Internacionales en la UASD; posgrado en Derecho Civil
+                    en la misma universidad; máster internacional en Gestión Universitaria en la Universidad de Alcalá de Henares, y
+                    maestría en Docencia y Gestión Universitaria en la Universidad Católica Santo Domingo (UCSD).
+                </p>
+            </div>
+        </div>
+        <div id="marcos" class="modal">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <h4 id="modalText4">Marcos Francisco Masso Garrote</h4>
+                    <span class="close">&times;</span>
+                </div>
+                <p>
+                    Es Doctor en Derecho y Catedrático de Derecho Constitucional por las Universidades de Castilla la Mancha.
+                    Es el único hispano dominicano que ocupa una Cátedra de esta especialidad en Derecho Constitucional en el mundo.
+                    
+                    Actualmente es director del Centro de Estudios Constitucionales del Tribunal Constitucional de la RD. También es autor
+                    también de más de 100 artículos y capítulos de libros, de investigaciones publicadas en revistas especializadas tanto
+                    del ámbito nacional como internacional.
+                </p>
+            </div>
+        </div>
+
+        <!-- schedule area -->
+        <div class="schedule-area py-120 bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
+                            <!-- <span class="site-title-tagline">Calendario de actividades</span> -->
+                            <h2 class="site-title">Calendario de <br/> <span>actividades</span></h2>
+                            <div class="site-shadow-text">Actividades</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-nav wow fadeInUp" data-wow-delay=".25s">
+                    <ul class="nav nav-pills" id="pills-tab-schedule" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-schedule-tab1" data-bs-toggle="pill"
+                                data-bs-target="#pills-schedule1" type="button" role="tab"
+                                aria-controls="pills-schedule1" aria-selected="true">
+                                <span class="icon"><i class="fal fa-calendar-days"></i></span>
+                                <span class="content">
+                                    <span class="day">Día 1</span>
+                                    <span class="date">24 Octubre 2024</span>
+                                </span>
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-schedule-tab2" data-bs-toggle="pill"
+                                data-bs-target="#pills-schedule2" type="button" role="tab"
+                                aria-controls="pills-schedule2" aria-selected="false">
+                                <span class="icon"><i class="fal fa-calendar-days"></i></span>
+                                <span class="content">
+                                    <span class="day">Día 2</span>
+                                    <span class="date">25 Octubre, 2024</span>
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content wow fadeInUp" data-wow-delay=".25s" id="pills-tabContent-schedule">
+                    <!-- tab 1 -->
+                    <div class="tab-pane fade show active" id="pills-schedule1" role="tabpanel"
+                        aria-labelledby="pills-schedule-tab1" tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="schedule-item">
+                                    <span class="schedule-count">01</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/01.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 05:00 PM</li>
+                                                        <!-- <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">Acto Inaugural</a></h4>
+                                                <p>Invitado especial el Dr. Luis Almagro, Secretario General de la Organización de Estados Americanos (OEA).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="schedule-item">
+                                    <span class="schedule-count">02</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/02.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 10.00 AM - 12.00 PM</li>
+                                                        <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">Introduction Digital Technology Conference.</a></h4>
+                                                <p>There are many variations of passages available but the majority have
+                                                    suffered alteration in some form by injected humour, or randomised
+                                                    words
+                                                    which don't look even slightly believable.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="schedule-item last">
+                                    <span class="schedule-count">03</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/03.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 10.00 AM - 12.00 PM</li>
+                                                        <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">International Technology Summit Conference.</a></h4>
+                                                <p>There are many variations of passages available but the majority have
+                                                    suffered alteration in some form by injected humour, or randomised
+                                                    words
+                                                    which don't look even slightly believable.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tab 2 -->
+                    <div class="tab-pane fade" id="pills-schedule2" role="tabpanel"
+                        aria-labelledby="pills-schedule-tab2" tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-lg-12">
+                                <div class="schedule-item">
+                                    <span class="schedule-count">01</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/01.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 09:00 AM</li>
+                                                        <!-- <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">DESAFÍO DE LA DEMOCRACIA DOMINICANA</a></h4>
+                                                <p>Expositora Mu-Kien Adriana Sang Ben, asesora del Centro de Estudios Caribeños de la PUCMM y dirige el Doctorado en
+                                                Historia del Caribe y la Maestría en Estudios Caribeños.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="schedule-item">
+                                    <span class="schedule-count">02</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/02.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 10:30 AM</li>
+                                                        <!-- <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">ELECCIONES, CIUDADANÍA Y DEMOCRACIA.</a></h4>
+                                                <p>Expositor Román Jáquez Liranzo, Juez Presidente de la Junta Central Electoral.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="schedule-item last">
+                                    <span class="schedule-count">03</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/03.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 02:30 PM</li>
+                                                        <!-- <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">LA DEMOCRACIA CONSTITUCIONAL EN AMÉRICA LATINA</a></h4>
+                                                <p>Expositor Marcos Francisco Massó Garrote, Catedrático de Derecho Constitucional de la Universidad de Castilla La Mancha.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="schedule-item last">
+                                    <span class="schedule-count">04</span>
+                                    <div class="schedule-content-wrap">
+                                        <div class="schedule-img">
+                                            <img src="assets/img/schedule/03.jpg" alt="">
+                                        </div>
+                                        <div class="schedule-content">
+                                            <div class="schedule-info">
+                                                <div class="schedule-meta">
+                                                    <ul>
+                                                        <li><i class="far fa-clock"></i> 03:30 PM</li>
+                                                        <!-- <li><i class="far fa-location-dot"></i> 25/B Milford, New York
+                                                                                    </li> -->
+                                                    </ul>
+                                                </div>
+                                                <h4><a href="#">GOBIERNO Y DEMOCRACIA</a></h4>
+                                                <p>Expositora Carolina Mejía, Alcaldesa del Distrito Nacional.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- schedule area end -->
+
+        <!-- gallery-area -->
+        <div class="gallery-area py-120" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
+                            <span class="site-title-tagline">Lugar del evento</span>
+                            <h2 class="site-title">Hotel Catalonia <br> <span>Santo Domingo, D.N.</span></h2>
+                            <div class="site-shadow-text wow fadeInRight" data-wow-delay=".35s">Hotel Catalonia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 popup-gallery">
+                    <div class="col-md-7">
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div class="gallery-img">
+                                        <img src="assets/img/gallery/02.jpg" alt="">
+                                        <a class="popup-img gallery-link" href="assets/img/gallery/02.jpg"><i
+                                                class="fal fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div class="gallery-img">
+                                        <img src="assets/img/gallery/03.jpg" alt="">
+                                        <a class="popup-img gallery-link" href="assets/img/gallery/03.jpg"><i
+                                                class="fal fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="gallery-item wow fadeInDown" data-wow-delay=".25s">
+                                    <div class="gallery-img">
+                                        <img src="assets/img/gallery/04.jpg" alt="">
+                                        <a class="popup-img gallery-link" href="assets/img/gallery/04.jpg"><i
+                                                class="fal fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="gallery-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="gallery-img">
+                                <img src="assets/img/gallery/01.jpg" alt="">
+                                <a class="popup-img gallery-link" href="assets/img/gallery/01.jpg"><i
+                                        class="fal fa-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery-area end -->
+
+        <!-- cta area -->
+        <!-- <div class="cta-area pt-100 pb-100" style="background-image: url(assets/img/cta/01.jpg);" id="join-event">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="cta-content wow fadeInUp" data-wow-delay=".25s">
+                            <h1>Are you want to join our events ?</h1>
+                            <p>It is a long established fact that a reader will be distracted by the readable <br>
+                                content of a
+                                page when looking at its layout.</p>
+                            <a href="#" class="theme-btn">Register Now<i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- cta area end -->
+
+        <!-- map -->
+        <div class="contact-map" id="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4489.296279092548!2d-69.9113728!3d18.4560168!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea5627eededfb21%3A0x84a8d452e86d6480!2sHotel%20Catalonia%20Santo%20Domingo!5e1!3m2!1ses!2suy!4v1725300813299!5m2!1ses!2suy"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+
+
+    <!-- footer area -->
+    <footer class="footer-area">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row footer-widget-wrapper pt-100 pb-70">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="footer-widget-box about-us">
+                            <a href="#" class="footer-logo">
+                                <img src="assets/img/logo.png" alt="">
+                            </a>
+                            <p class="mb-3">
+                                We are many variations of passages available majority have suffered
+                                in some injected content of a page when looking at its layout humour words believable.
+                            </p>
+                            <!-- <div class="footer-newsletter">
+                                <p>Subscribe Our Newsletter</p>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email">
+                                            <button class="theme-btn" type="submit">
+                                                <span class="far fa-paper-plane"></span> Subscribe
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="footer-widget-box list">
+                            <h4 class="footer-widget-title">Quick Links</h4>
+                            <ul class="footer-list">
+                                <li><a href="about.html"><i class="fas fa-caret-right"></i> About Us</a></li>
+                                <li><a href="blog.html"><i class="fas fa-caret-right"></i> Update News</a></li>
+                                <li><a href="contact.html"><i class="fas fa-caret-right"></i> Contact Us</a></li>
+                                <li><a href="testimonial.html"><i class="fas fa-caret-right"></i> Testimonials</a></li>
+                                <li><a href="terms.html"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
+                                <li><a href="privacy.html"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="footer-widget-box list">
+                            <h4 class="footer-widget-title">Our Social</h4>
+                            <ul class="footer-list social">
+                                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fab fa-x-twitter"></i> Twitter</a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-widget-box list">
+                            <h4 class="footer-widget-title">Get In Touch</h4>
+                            <ul class="footer-contact">
+                                <li><a href="tel:+21236547898"><i class="far fa-phone"></i>+2 123 654 7898</a></li>
+                                <li><i class="far fa-map-marker-alt"></i>25/B Milford Road, New York</li>
+                                <li><a href="mailto:info@example.com"><i
+                                            class="far fa-envelope"></i>info@example.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 align-self-center">
+                        <p class="copyright-text">
+                            &copy; Copyright <span id="date"></span> <a href="#"> Eventu </a> All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 align-self-center">
+                        <ul class="footer-menu">
+                            <li><a href="contact.html">Support</a></li>
+                            <li><a href="terms.html">Terms Of Services</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area end -->
+
+
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
+    <!-- scroll-top end -->
+
+
+    <!-- js -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
