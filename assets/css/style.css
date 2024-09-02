@@ -1834,10 +1834,10 @@ label {
   height: 100%;
   left: -0.5px;
   top: 0;
-  background: rgb(32, 90, 162);
+  /* background: rgb(164 176 67); */
   background: linear-gradient(180deg, rgba(32, 90, 162, 1) 0%, rgba(113, 128, 31, 1) 100%);
-  opacity: 1;
-  z-index: -1;
+  opacity: 0.9;
+  /* z-index: -1; */
 }
 
 .hero-single .hero-content {
