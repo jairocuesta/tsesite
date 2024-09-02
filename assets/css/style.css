@@ -1778,7 +1778,7 @@ label {
   transform: translateX(-50%);
   width: 600px;
   height: 200px;
-  background: url("/assets/img/logo-2.png");
+  background: url("assets/img/logo-2.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
