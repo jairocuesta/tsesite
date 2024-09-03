@@ -246,7 +246,8 @@ function openModal(modalId, text) {
 
 // Attach event listeners to buttons
 document.querySelectorAll('.openModalBtn').forEach(button => {
-    button.addEventListener('click', function () {
+    button.addEventListener('click', function (e) {
+        if (e.target.id === 'icon') return;
         const modalId = this.getAttribute('data-modal');
         const text = `This is the content for ${modalId}`;
         openModal(modalId, text);
