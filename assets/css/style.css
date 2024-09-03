@@ -1753,6 +1753,26 @@ label {
   }
 }
 
+.gallery-video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.gallery-video video {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.gallery-image {
+  aspect-ratio: 16/9;
+}
+
+.gallery-image img {
+  width: 100%;
+  border-radius: 1rem;
+  aspect-ratio: 16/9;
+}
+
 .hero-video {
   /* position: absolute; */
   width: 100%;
@@ -1783,14 +1803,22 @@ label {
 
 .hero-logo {
   position: absolute;
-  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 600px;
-  height: 200px;
-  background: url("../img/logo-2.png");
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.hero-logo img {
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -4655,6 +4683,16 @@ label {
 /* ========================
 41. Gallery css 
 =========================== */
+
+.gallery-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-row {
+  display: flex;
+  gap: .8rem;
+}
 
 .gallery-item {
   position: relative;
