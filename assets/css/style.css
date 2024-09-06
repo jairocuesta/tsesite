@@ -111,6 +111,7 @@ Table of contents
 *:before,
 *:after {
   box-sizing: inherit;
+  text-transform: none !important;
 }
 
 * {
@@ -179,6 +180,7 @@ h6 {
   font-weight: 600;
   font-family: var(--heading-font);
   line-height: 1.2;
+  text-transform: none !important;
 }
 
 h1 {
@@ -758,12 +760,23 @@ label {
   background: var(--theme-gradient);
   box-shadow: var(--box-shadow);
   z-index: 1;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 991px) {
+  .theme-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
 }
 
 .theme-btn::before {
   content: "";
   height: 300px;
-  width: 300px;
+  width: 100%;
   background: var(--theme-color2);
   border-radius: 50%;
   position: absolute;
@@ -785,8 +798,32 @@ label {
 .theme-btn i {
   margin-left: 10px;
   transform: rotate(-35deg);
+  height: fit-content;
   transition: var(--transition2);
 }
+
+.theme-btn .theme-btn-yt {
+  width: fit-content;
+  line-height: normal;
+}
+
+.theme-btn .theme-btn-yt i {
+  color: red !important;
+  transform: rotate(0deg) !important;
+  font-size: 19px;
+}
+.theme-btn .theme-btn-yt i::after {
+  content: "";
+  position: absolute !important;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px !important;
+  height: 8px !important;
+  background-color: var(--color-gray) !important;
+  z-index: -1;
+}
+
 
 .theme-btn:hover i {
   transform: rotate(0);
@@ -1092,9 +1129,9 @@ label {
     margin-right: 15px;
   }
 
-  .navbar .nav-right-btn {
+  /* .navbar .nav-right-btn {
     display: none;
-  }
+  } */
 }
 
 @media all and (min-width: 992px) {
@@ -1227,6 +1264,7 @@ label {
     justify-content: center;
     gap: 28px;
     margin-left: 45px;
+    min-width: fit-content;
   }
 
   .nav-right-link {
@@ -1273,12 +1311,22 @@ label {
   display: none;
 }
 
+.nav-right-btn-mobile {
+  display: none;
+  margin: 0 !important;
+}
+
+.navbar-collapse {
+  padding-right: 20px;
+}
+
 @media all and (max-width: 991px) {
   .navbar {
     position: absolute;
     width: 100%;
     height: auto;
     background: var(--color-white);
+    padding: 10px 0;
   }
 
   .navbar::before {
@@ -1286,7 +1334,7 @@ label {
   }
 
   .navbar-brand img {
-    width: 130px;
+    width: 220px;
   }
 
   .navbar-collapse {
@@ -1297,6 +1345,7 @@ label {
     margin-bottom: 10px;
     background-color: var(--theme-bg-light);
     border-radius: 15px;
+    min-width: fit-content;
   }
 
   .navbar-toggler {
@@ -1353,8 +1402,10 @@ label {
   .nav-right {
     display: none;
   }
+  .nav-right-btn-mobile {
+    display: flex;
+  }
 }
-
 
 /*============================
 14. Multi level dropdown menu
